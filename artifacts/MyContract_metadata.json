@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ourString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_updateString",
+						"type": "string"
+					}
+				],
+				"name": "updateOurString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"02-blockchain-basic/contracts/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"02-blockchain-basic/contracts/MyContract.sol": {
+			"keccak256": "0x0ff3f8a4b6a0dc412627c0a5500fdf58c8226680c5f8bf60eea561516494f0fa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9965ef3b7ea3e7a99402be08277d42f29258868560df87d065d8212b497232a6",
+				"dweb:/ipfs/QmWQoX637gWt6ffgyYLEc2MPwgHtQjq4v8ECjMZnMH9M4x"
+			]
+		}
+	},
+	"version": 1
+}
