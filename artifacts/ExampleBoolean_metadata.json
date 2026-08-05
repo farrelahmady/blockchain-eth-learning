@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "ourString",
+				"name": "_myBool",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -21,12 +21,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_updateString",
-						"type": "string"
+						"internalType": "bool",
+						"name": "pBool",
+						"type": "bool"
 					}
 				],
-				"name": "updateOurString",
+				"name": "setMyBool",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"03-the-blockchain-messenger/contracts/ExampleBoolean.sol": "MyContract"
+			"03-the-blockchain-messenger/contracts/ExampleBoolean.sol": "ExampleBoolean"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"03-the-blockchain-messenger/contracts/ExampleBoolean.sol": {
-			"keccak256": "0x0ff3f8a4b6a0dc412627c0a5500fdf58c8226680c5f8bf60eea561516494f0fa",
+			"keccak256": "0x891b04f9142d859ca9c5e5473f94a1641b7697ede9f20cac7d536f26fd3c05e4",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9965ef3b7ea3e7a99402be08277d42f29258868560df87d065d8212b497232a6",
-				"dweb:/ipfs/QmWQoX637gWt6ffgyYLEc2MPwgHtQjq4v8ECjMZnMH9M4x"
+				"bzz-raw://267f335d2026e3418c7bcfe2aadce7e0f99255146884ef50f0ba4eea5fb5adf6",
+				"dweb:/ipfs/QmX5i3Da6JZVTYEhnTNNM99dGrtqUSHwbx2x7KNcRwGmaZ"
 			]
 		}
 	},
